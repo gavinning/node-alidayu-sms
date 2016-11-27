@@ -19,8 +19,8 @@ class Alidayu {
         if(!tel){
             return console.log('需要一个手机号码')
         }
-        opt.name = options.name;
-        opt.time = options.time;
+        if(options.tel) delete options.del;
+        opt = Object.assign(opt, options);
         this.smsOption.rec_num = tel;
         this.smsOption.sms_param = JSON.stringify(opt);
 
