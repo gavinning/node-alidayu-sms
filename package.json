@@ -1,0 +1,26 @@
+{
+  "name": "alidayu-sms",
+  "version": "1.0.0",
+  "description": "alidayu sms",
+  "main": "app.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gavinning/node-alidayu-sms.git"
+  },
+  "keywords": [
+    "alidayu",
+    "sms"
+  ],
+  "author": "gavinning",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gavinning/node-alidayu-sms/issues"
+  },
+  "homepage": "https://github.com/gavinning/node-alidayu-sms#readme",
+  "dependencies": {
+    "urllib": "^2.17.1"
+  }
+}
